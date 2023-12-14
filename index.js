@@ -30,7 +30,6 @@ app.set('views', './views');
 
 app.use(session({
   name:'Employee review system',
-  //TODO change secret before deployment
   secret: "abcd",
   saveUninitialized: false,
   resave: false,
